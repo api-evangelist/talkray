@@ -1,0 +1,54 @@
+{
+    "name": "Talkray",
+    "description": "From the makers of TiKL \u2013 the Touch To Talk app enjoyed by 25 million users \u2013 comes Talkray, a whole new mobile communication experience!  Available for the iPhone\/iPod\/iPad.    * Call one or a group of friends at once, in HD quality.  * One-button sen...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1763-talkray.jpg",
+    "tags": [
+        "actionscript",
+        "calls",
+        "have api",
+        "telecommunications"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/talkray\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Talkray",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1763-talkray.jpg",
+            "humanURL": "http:\/\/developer.talkray.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/talkray-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/tikl"
+        },
+        {
+            "type": "Email",
+            "url": "jobs@talkray.com"
+        },
+        {
+            "type": "Email",
+            "url": "help@talkray.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Talkray"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/developer.talkray.com\/"
+        }
+    ]
+}
