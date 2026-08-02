@@ -1,20 +1,50 @@
 aid: talkray
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talkray.png
 name: Talkray
-description: Talkray is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Talkray (operated by TiKL, Inc., a Y Combinator W12 startup founded in 2012 by Zafer
+  Ahmed in Redwood City, California) was a free cross-platform messaging and calling app spanning
+  the TiKL Touch-To-Talk and Talkray consumer apps, which together saw roughly 28 million downloads.
+  In 2013 the company announced the Talkray Developer API, a white-label cloud platform for embedding
+  one-on-one and group text chat, group voice calls, voicemail, push notifications, and image/video
+  transfer into third-party mobile apps and games. That API never left private beta and no public
+  documentation, OpenAPI, SDKs, or developer portal were ever published. The company is now defunct
+  (deadpooled) - active development ceased around 2018 and the app was removed from Google Play in
+  February 2021. talkray.com currently sits behind Cloudflare and returns HTTP 403 for all paths.
 url: https://raw.githubusercontent.com/api-evangelist/talkray/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+x-status: defunct
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Messaging
+- Communications
+- Voice
+- Mobile
+- Defunct
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
